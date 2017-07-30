@@ -1,0 +1,8 @@
+index:
+    path: /
+    defaults:  { _controller: AppBundle:Default:index }
+
+find:
+    path: /find
+    defaults:  { _controller: AppBundle:Default:find }
+
