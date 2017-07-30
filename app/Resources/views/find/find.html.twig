@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% for route in routs  %}
+        <p>{{ route.getPointsRoute }}<p>
+        <p>{{ route.getTotalDistance }}</p>
+        <p>{{ route.getTotalTime }}</p>
+    <br>
+    {% endfor %}
+{% endblock %}
+
+{% block stylesheets %}
+
+{% endblock %}
